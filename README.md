@@ -1,5 +1,5 @@
 # Hack_Windows10-WebCam__
-                                                                                                           Hack a Windows 10 webcam – Metasploit
+Hack a Windows 10 webcam – Metasploit
 
 This project is for learning purposes only and is not to be used for malicious purposes. These tests were carried out on a personal device.
 In this project i'm gonna learn how i can hack the webcam of my Windows 10 laptop.
@@ -69,6 +69,11 @@ msf6 > set lport 1234
 5-Use Run or Exploit for launch
 
 Now u can see 1 session open kali --> windows10
-U can tap shell to have the connection confirmation
+You can tap shell to have the connection confirmation
 Now you are in the windows pc D:\> tap help to watch the differents windows files
-Tap exit and now meterpreter > help u can see now tools for metasploit like webcam_stream.
+Tap exit and now meterpreter > help you can see now tools for metasploit like webcam_stream.
+
+!-------!
+Error help list : 
+
+OSError: [Errno 98] Address already in use" indique que le port 8080 est déjà utilisé par un autre processus. Pour résoudre ce problème : Utiliser un Autre Port ou Trouver et Terminer le Processus Utilisant le Port : Vous pouvez identifier le processus qui utilise le port et le terminer. Sur Linux, vous pouvez utiliser la commande lsof pour cela. Par exemple : sudo lsof -i :8080 Cette commande vous montrera quel processus utilise le port 8080. Vous pouvez ensuite terminer ce processus avec la commande kill : sudo kill -9 <PID NUMBER>
